@@ -64,6 +64,33 @@
 
 ## Getting Started
 
+## Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+
+
+### Prerequisites
+In order to run this project you need:
+```
+    ruby
+    bundler
+```
+### Setup
+Clone this repository to your desired folder:
+```bash
+  git clone https://github.com/HtetWaiYan7191/create-new-enumerable.git
+```
+
+### Install
+Install this project with:
+```bash
+  cd create-new-enumerable
+  bundle install
+```
+it will install the required gemfile for running the project
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Author1 <a name="author"></a>
