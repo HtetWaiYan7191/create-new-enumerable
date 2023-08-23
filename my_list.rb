@@ -6,17 +6,12 @@ class MyList
     @list = list
   end
 
-  def show_list
-    print @list
-  end
-
   def each(&block)
     @list.each(&block)
   end
 end
 
 list = MyList.new(1, 2, 3, 4)
-list.show_list
 puts(list.all? { |e| e < 5 })
 puts(list.all? { |e| e > 5 })
 
